@@ -1,0 +1,12 @@
+
+#find the name of the node by using the command:
+
+kubectl get nodes
+
+
+#label the nodes:
+
+kubectl label nodes $nodename openstack-compute-node=enabled
+kubectl label nodes $nodename linuxbridge=enabled
+
+
